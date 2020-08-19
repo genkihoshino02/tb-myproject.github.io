@@ -26,7 +26,6 @@ elemBtn.forEach(elem=>elem.addEventListener("click",(e)=>{
        var allElements=[countA,countB,countC,countD];
 
        maxElem=allElements.indexOf(Math.max.apply(null,allElements));
-       console.log(typeof(maxElem));
        
        if(maxElem ==0){resultElem="箱根-芦ノ湖"}
        else if(maxElem==1){resultElem="東京-澁谷"}
